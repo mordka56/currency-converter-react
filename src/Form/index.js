@@ -6,7 +6,7 @@ const Form = () => (
             <article className="form__article">Kalkulator walut</article>
 
             <input placeholder="Wpisz kwotę" type="number" min="0" className="form__element" />
-            <select name="waluta" className="form__element ">
+            <select name="waluta" className="form__element " >
                 <option value="1">PLN</option>
                 <option value="4.71">EUR</option>
                 <option value="4.47">USD</option>
@@ -25,7 +25,7 @@ const Form = () => (
             </p>
             <p className="form__paragraph">Kurs z dnia 07.05.2022r.</p>
         </fieldset>
-    </form>
+    </form >
 )
 
 export default Form;
